@@ -1,0 +1,127 @@
+/* Style the header with a grey background and some padding */
+.header {
+  background-color: white;
+  padding: 20px 10px;
+}
+/* Style the header links */
+.header a {
+  float: center;
+  color: #354463;
+  text-align: center;
+  padding: 40px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+.header-right {
+  float: right;
+}
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #354463;
+  border-radius: 30px;
+  background-color: #C1F7D5;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+}
+.container2 {
+  position: absolute;
+  bottom: 128px;
+  left: 160px;
+  top: 128px;
+}
+.text-block {
+  background-color: white;
+  color: #354463;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 76px;
+  padding-bottom: 116px;
+}
+.text-block h4 {
+  font-size: x-large;
+  text-align: left;
+}
+.text-block p {
+  text-decoration: underline;
+  font-size: small;
+}
+.hashtag {
+  position: absolute;
+  top: 136.7px;
+  left: 839px;
+  bottom: 311.3px;
+  font-size: xx-large;
+  color: white;
+}
+.green {
+  background-color: #C1F7D5;
+  width: 100%;
+  height: 200px;
+  margin-top: 0;
+}
+.rectangle {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: small;
+}
+.rectangle p {
+  background-color: #354463;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.item {
+  padding: 20px;
+  display: inline-block;
+  vertical-align: auto;
+  margin-left: 80px;
+}
+.bleu {
+  background-color: #354463;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  border: none;
+  color: black;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+.bouton {
+  background-color: white;
+  margin-top: 88px;
+  margin-left: 160px;
+}
+.bleu > p {
+  color: white;
+  font-size: x-large;
+  text-align: left;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+.container3 {
+  display: flex;
+  padding: 0 20px;
+}
+.article {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article p {
+  color: blue;
+}
